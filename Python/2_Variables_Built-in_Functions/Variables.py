@@ -1,6 +1,4 @@
-# ============================================================
-# 1. Creating Variables
-# ============================================================
+# Creating Variables
 
 first_name = "Gaurav"
 last_name = "Telange"
@@ -17,9 +15,7 @@ print(age)
 print(is_student)
 
 
-# ============================================================
-# 2. Different Types of Variables
-# ============================================================
+# Different Types of Variables
 
 name = "Gaurav"                 # String
 age = 20                       # Integer
@@ -34,9 +30,7 @@ print(complex_number)
 print(is_student)
 
 
-# ============================================================
-# 3. Checking Variable Types
-# ============================================================
+# Checking Variable Types
 
 print(type(name))
 print(type(age))
@@ -45,9 +39,7 @@ print(type(complex_number))
 print(type(is_student))
 
 
-# ============================================================
-# 4. Variables with Collections
-# ============================================================
+# Variables with Collections
 
 skills = ["C", "C++", "Python", "DSA"]
 
@@ -67,18 +59,14 @@ print("Unique numbers:", unique_numbers)
 print("Person information:", person_info)
 
 
-# ============================================================
-# 5. Accessing Dictionary Values
-# ============================================================
+# Accessing Dictionary Values
 
 print("Name:", person_info["name"])
 print("Age:", person_info["age"])
 print("City:", person_info["city"])
 
 
-# ============================================================
-# 6. Built-in Functions
-# ============================================================
+# Built-in Functions
 
 print("Length of name:", len(name))
 
@@ -90,9 +78,7 @@ print("Minimum:", min(numbers))
 print("Sum:", sum(numbers))
 
 
-# ============================================================
-# 7. String Built-in Methods
-# ============================================================
+# String Built-in Methods
 
 message = "Python Programming"
 
@@ -104,9 +90,7 @@ print("First character:", message[0])
 print("Last character:", message[-1])
 
 
-# ============================================================
-# 8. Multiple Variables
-# ============================================================
+# Multiple Variables
 
 first_name, last_name, country = "Gaurav", "Telange", "India"
 
@@ -115,9 +99,7 @@ print(last_name)
 print(country)
 
 
-# ============================================================
-# 9. Multiple Variables with Different Data Types
-# ============================================================
+# Multiple Variables with Different Data Types
 
 name, age, height, student = "Gaurav", 20, 5.8, True
 
@@ -127,9 +109,7 @@ print(height)
 print(student)
 
 
-# ============================================================
-# 10. Variable Reassignment
-# ============================================================
+# Variable Reassignment
 
 age = 20
 
@@ -140,9 +120,7 @@ age = 21
 print("Updated age:", age)
 
 
-# ============================================================
-# 11. Variables Can Change Their Type
-# ============================================================
+# Variables Can Change Their Type
 
 value = 100
 
@@ -155,12 +133,10 @@ print(value)
 print(type(value))
 
 
-# ============================================================
-# 12. Constants
-# ============================================================
+# Constants
 
 # Python does not have strict constants.
-# By convention, uppercase names are treated as constants.
+# Uppercase names are conventionally treated as constants.
 
 PI = 3.14159
 MAX_SCORE = 100
@@ -171,9 +147,7 @@ print(MAX_SCORE)
 print(COLLEGE_NAME)
 
 
-# ============================================================
-# 13. Swapping Variables
-# ============================================================
+# Swapping Variables
 
 a = 10
 b = 20
@@ -189,18 +163,14 @@ print("a =", a)
 print("b =", b)
 
 
-# ============================================================
-# 14. Getting User Input
-# ============================================================
+# Getting User Input
 
 name = input("Enter your name: ")
 
 print("Hello", name)
 
 
-# ============================================================
-# 15. Input and Type Conversion
-# ============================================================
+# Input and Type Conversion
 
 age = int(input("Enter your age: "))
 height = float(input("Enter your height: "))
@@ -209,9 +179,7 @@ print("Age:", age)
 print("Height:", height)
 
 
-# ============================================================
-# 16. Type Conversion
-# ============================================================
+# Type Conversion
 
 number_string = "100"
 
@@ -220,14 +188,14 @@ number = int(number_string)
 print(number)
 print(type(number))
 
-
 number_float = float(number)
 
 print(number_float)
 print(type(number_float))
 
 
-# Integer -> String
+# Integer to String
+
 age = 20
 age_string = str(age)
 
@@ -235,9 +203,7 @@ print(age_string)
 print(type(age_string))
 
 
-# ============================================================
-# 17. Boolean Conversion
-# ============================================================
+# Boolean Conversion
 
 print(bool(1))
 print(bool(0))
@@ -246,9 +212,7 @@ print(bool("Python"))
 print(bool(""))
 
 
-# ============================================================
-# 18. String Formatting - f-string
-# ============================================================
+# String Formatting with f-string
 
 name = "Gaurav"
 age = 20
@@ -259,9 +223,7 @@ print(f"I am {age} years old.")
 print(f"I live in {city}.")
 
 
-# ============================================================
-# 19. Using Variables in Calculations
-# ============================================================
+# Using Variables in Calculations
 
 length = 10
 width = 5
@@ -273,9 +235,7 @@ print("Width:", width)
 print("Area:", area)
 
 
-# ============================================================
-# 20. Updating Variables
-# ============================================================
+# Updating Variables
 
 score = 0
 
@@ -286,9 +246,7 @@ score = score + 30
 print("Final score:", score)
 
 
-# ============================================================
-# 21. Shortcut Assignment Operators
-# ============================================================
+# Shortcut Assignment Operators
 
 number = 10
 
@@ -305,40 +263,34 @@ number /= 4
 print(number)       # 6.0
 
 
-# ============================================================
-# 22. Variable Naming Rules
-# ============================================================
+# Variable Naming Rules
 
-# Valid variable names:
+# Valid variable names
 
 student_name = "Gaurav"
 student_age = 20
 _marks = 90
 marks2 = 95
 
-# Invalid examples:
+# Invalid examples
 
 # 2marks = 90          # Cannot start with a number
-# student-name = ""   # Hyphen is not allowed
-# class = "CSE"       # 'class' is a Python keyword
+# student-name = ""    # Hyphen is not allowed
+# class = "CSE"        # 'class' is a Python keyword
 
 
-# ============================================================
-# 23. Good Naming Practice
-# ============================================================
+# Good Naming Practice
 
-# Bad:
+# Bad
 x = 20
 
-# Better:
+# Better
 student_age = 20
 
 print(student_age)
 
 
-# ============================================================
-# 24. len() with Different Collections
-# ============================================================
+# len() with Different Collections
 
 name = "Gaurav"
 skills = ["C++", "Python", "DSA"]
@@ -354,9 +306,7 @@ print(len(numbers))
 print(len(student))
 
 
-# ============================================================
-# 25. del - Delete a Variable
-# ============================================================
+# Delete a Variable
 
 temporary_value = 100
 
@@ -367,9 +317,7 @@ del temporary_value
 # print(temporary_value)  # Error because variable was deleted
 
 
-# ============================================================
-# 26. Practice Example - Student Information
-# ============================================================
+# Practice Example - Student Information
 
 student_name = "Gaurav"
 student_age = 20
@@ -385,9 +333,7 @@ print(f"College: {student_college}")
 print(f"Marks: {student_marks}")
 
 
-# ============================================================
-# 27. Practice Example - Simple Calculator
-# ============================================================
+# Practice Example - Simple Calculator
 
 a = 20
 b = 10
@@ -400,9 +346,7 @@ print("Modulus:", a % b)
 print("Power:", a ** b)
 
 
-# ============================================================
-# 28. Practice Example - Personal Profile
-# ============================================================
+# Practice Example - Personal Profile
 
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
@@ -416,11 +360,8 @@ print(f"City: {city}")
 print(f"Main Skill: {skill}")
 
 
-# ============================================================
 # Key Takeaways
-# ============================================================
 
-# Variable:
 # A variable stores a value.
 
 # Examples:
