@@ -1,14 +1,10 @@
-# ============================================================
-# 1. Hello World
-# ============================================================
+# Hello World
 
 print("Hello World!")
 print("Welcome to Python!")
 
 
-# ============================================================
-# 2. Comments
-# ============================================================
+# Comments
 
 # This is a single-line comment
 
@@ -19,22 +15,18 @@ It can also be used as a multi-line comment.
 """
 
 
-# ============================================================
-# 3. Basic Arithmetic Operators
-# ============================================================
+# Basic Arithmetic Operators
 
-print(2 + 3)      # Addition (+)
-print(3 - 1)      # Subtraction (-)
-print(2 * 3)      # Multiplication (*)
-print(3 / 2)      # Division (/)
-print(3 ** 2)     # Exponentiation (**)
-print(3 % 2)      # Modulus (%)
-print(3 // 2)     # Floor division (//)
+print(2 + 3)      # Addition
+print(3 - 1)      # Subtraction
+print(2 * 3)      # Multiplication
+print(3 / 2)      # Division
+print(3 ** 2)     # Exponentiation
+print(3 % 2)      # Modulus
+print(3 // 2)     # Floor division
 
 
-# ============================================================
-# 4. Variables
-# ============================================================
+# Variables
 
 name = "Gaurav"
 age = 20
@@ -47,9 +39,7 @@ print(height)
 print(is_student)
 
 
-# ============================================================
-# 5. Multiple Variables
-# ============================================================
+# Multiple Variables
 
 first_name, last_name, age = "Gaurav", "Telange", 20
 
@@ -58,9 +48,7 @@ print(last_name)
 print(age)
 
 
-# ============================================================
-# 6. Checking Data Types
-# ============================================================
+# Checking Data Types
 
 print(type(10))                    # int
 print(type(3.14))                  # float
@@ -73,9 +61,7 @@ print(type({"name": "Gaurav"}))    # dict
 print(type(True))                  # bool
 
 
-# ============================================================
-# 7. Basic Data Types
-# ============================================================
+# Basic Data Types
 
 integer_number = 100
 float_number = 10.5
@@ -90,45 +76,37 @@ print(string_value)
 print(boolean_value)
 
 
-# ============================================================
-# 8. Type Conversion
-# ============================================================
+# Type Conversion
 
 number = "100"
 
-print(int(number))       # String -> Integer
-print(float(number))     # String -> Float
+print(int(number))       # String to integer
+print(float(number))     # String to float
 
 age = 20
-print(str(age))          # Integer -> String
+print(str(age))          # Integer to string
 
 value = 1
-print(bool(value))       # Integer -> Boolean
+print(bool(value))       # Integer to boolean
 
 
-# ============================================================
-# 9. Taking Input
-# ============================================================
+# Taking Input
 
-# input() always returns a string
+# input() returns a string
 
 user_name = input("Enter your name: ")
 
 print("Hello", user_name)
 
 
-# ============================================================
-# 10. Input with Type Conversion
-# ============================================================
+# Input with Type Conversion
 
 user_age = int(input("Enter your age: "))
 
 print("Your age is:", user_age)
 
 
-# ============================================================
-# 11. String Basics
-# ============================================================
+# String Basics
 
 message = "Python Programming"
 
@@ -143,9 +121,7 @@ print(message[0])            # First character
 print(message[-1])           # Last character
 
 
-# ============================================================
-# 12. String Slicing
-# ============================================================
+# String Slicing
 
 text = "Python"
 
@@ -153,12 +129,10 @@ print(text[0:3])      # Pyt
 print(text[2:])       # thon
 print(text[:4])       # Pyth
 print(text[::2])      # Pto
-print(text[::-1])     # nohtyP
+print(text[::-1])     # Reverse
 
 
-# ============================================================
-# 13. String Concatenation
-# ============================================================
+# String Concatenation
 
 first_name = "Gaurav"
 last_name = "Telange"
@@ -168,9 +142,7 @@ full_name = first_name + " " + last_name
 print(full_name)
 
 
-# ============================================================
-# 14. f-Strings
-# ============================================================
+# f-Strings
 
 name = "Gaurav"
 age = 20
@@ -178,9 +150,7 @@ age = 20
 print(f"My name is {name} and I am {age} years old.")
 
 
-# ============================================================
-# 15. Boolean Values
-# ============================================================
+# Boolean Values
 
 is_python_easy = True
 is_java_hard = False
@@ -189,9 +159,7 @@ print(is_python_easy)
 print(is_java_hard)
 
 
-# ============================================================
-# 16. Comparison Operators
-# ============================================================
+# Comparison Operators
 
 a = 10
 b = 5
@@ -204,9 +172,7 @@ print(a >= b)      # Greater than or equal
 print(a <= b)      # Less than or equal
 
 
-# ============================================================
-# 17. Logical Operators
-# ============================================================
+# Logical Operators
 
 age = 20
 has_id = True
@@ -216,9 +182,7 @@ print(age >= 18 or has_id)
 print(not has_id)
 
 
-# ============================================================
-# 18. if Statement
-# ============================================================
+# if Statement
 
 age = 20
 
@@ -226,9 +190,7 @@ if age >= 18:
     print("You are an adult.")
 
 
-# ============================================================
-# 19. if-else
-# ============================================================
+# if-else
 
 age = 16
 
@@ -238,9 +200,7 @@ else:
     print("You cannot vote yet.")
 
 
-# ============================================================
-# 20. if-elif-else
-# ============================================================
+# if-elif-else
 
 marks = 75
 
@@ -256,9 +216,7 @@ else:
     print("Need improvement")
 
 
-# ============================================================
-# 21. Lists
-# ============================================================
+# Lists
 
 numbers = [10, 20, 30, 40, 50]
 
@@ -273,9 +231,7 @@ numbers.remove(30)
 print(numbers)
 
 
-# ============================================================
-# 22. List Operations
-# ============================================================
+# List Operations
 
 numbers = [5, 2, 8, 1, 9]
 
@@ -288,9 +244,7 @@ numbers.sort()
 print(numbers)
 
 
-# ============================================================
-# 23. Tuples
-# ============================================================
+# Tuples
 
 coordinates = (10, 20)
 
@@ -301,9 +255,7 @@ print(coordinates[1])
 # Tuples cannot be changed after creation.
 
 
-# ============================================================
-# 24. Sets
-# ============================================================
+# Sets
 
 numbers = {1, 2, 3, 3, 4, 5}
 
@@ -316,9 +268,7 @@ numbers.remove(2)
 print(numbers)
 
 
-# ============================================================
-# 25. Dictionaries
-# ============================================================
+# Dictionaries
 
 student = {
     "name": "Gaurav",
@@ -338,9 +288,7 @@ student["college"] = "ABC College"
 print(student)
 
 
-# ============================================================
-# 26. Dictionary Methods
-# ============================================================
+# Dictionary Methods
 
 student = {
     "name": "Gaurav",
@@ -353,9 +301,7 @@ print(student.values())
 print(student.items())
 
 
-# ============================================================
-# 27. Membership Operators
-# ============================================================
+# Membership Operators
 
 numbers = [1, 2, 3, 4, 5]
 
@@ -364,17 +310,13 @@ print(10 in numbers)
 print(10 not in numbers)
 
 
-# ============================================================
-# 28. for Loop
-# ============================================================
+# for Loop
 
 for i in range(5):
     print(i)
 
 
-# ============================================================
-# 29. for Loop with List
-# ============================================================
+# for Loop with List
 
 languages = ["C", "C++", "Python", "Java"]
 
@@ -382,9 +324,7 @@ for language in languages:
     print(language)
 
 
-# ============================================================
-# 30. while Loop
-# ============================================================
+# while Loop
 
 count = 1
 
@@ -393,9 +333,7 @@ while count <= 5:
     count += 1
 
 
-# ============================================================
-# 31. break
-# ============================================================
+# break
 
 for i in range(10):
     if i == 5:
@@ -404,9 +342,7 @@ for i in range(10):
     print(i)
 
 
-# ============================================================
-# 32. continue
-# ============================================================
+# continue
 
 for i in range(10):
     if i == 5:
@@ -415,9 +351,7 @@ for i in range(10):
     print(i)
 
 
-# ============================================================
-# 33. Functions
-# ============================================================
+# Functions
 
 def greet():
     print("Hello from Python!")
@@ -426,9 +360,7 @@ def greet():
 greet()
 
 
-# ============================================================
-# 34. Function Parameters
-# ============================================================
+# Function Parameters
 
 def greet_user(name):
     print(f"Hello {name}!")
@@ -437,9 +369,7 @@ def greet_user(name):
 greet_user("Gaurav")
 
 
-# ============================================================
-# 35. Function Return Value
-# ============================================================
+# Function Return Value
 
 def add(a, b):
     return a + b
@@ -450,9 +380,7 @@ result = add(10, 20)
 print(result)
 
 
-# ============================================================
-# 36. Basic Scope
-# ============================================================
+# Basic Scope
 
 x = 10
 
@@ -465,9 +393,7 @@ def show_number():
 show_number()
 
 
-# ============================================================
-# 37. Useful Built-in Functions
-# ============================================================
+# Useful Built-in Functions
 
 numbers = [10, 20, 30, 40]
 
@@ -478,9 +404,7 @@ print(sum(numbers))
 print(sorted(numbers))
 
 
-# ============================================================
-# 38. Basic Practice
-# ============================================================
+# Basic Practice
 
 # Calculate the area of a rectangle
 
@@ -492,9 +416,7 @@ area = length * width
 print("Area =", area)
 
 
-# ============================================================
-# 39. Even or Odd
-# ============================================================
+# Even or Odd
 
 number = 7
 
@@ -504,9 +426,7 @@ else:
     print("Odd")
 
 
-# ============================================================
-# 40. Final Beginner Example
-# ============================================================
+# Final Beginner Example
 
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
